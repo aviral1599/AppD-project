@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="1200dp">
+
+        <TextView
+            android:id="@+id/txtq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Q1. How does FoodRunner work?"
+            android:textColor="#EE2916"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq1"
+            android:layout_marginStart="20dp"
+            android:text="Food Runner is an online food delivery service that connects you to local restaurants, anywhere around Delhi! Forget the hassle of cooking for yourself, and let someone else make the food and deliver it straight to your door. Simply log onto our app or website and place your order. We'll send you a text to confirm what your delivery/pick up time is, and soon enough you'll have a delicious stress-free meal."
+            android:textColor="#000000" />
+
+
+        <View
+            android:id="@+id/div1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtans1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:background="#ff9703" />
+
+        <TextView
+            android:id="@+id/txtq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtans1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Q2. When can I expect my food?"
+            android:textColor="#EE2916"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq2"
+            android:layout_margin="15dp"
+            android:text="We know you are hungry, so we strive to get your food to you as soon as possible. Most deliveries will arrive in under an hour. However, remember delivery time can be influenced by the restaurants ability to prepare your food, weather and traffic conditions. If you require a specific lunch time delivery or a large order, we suggest that you give us a 24-hour notice. This is not required, but is helpful to ensure you get an awesome experience."
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/div2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtans2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:background="#ff9703" />
+
+        <TextView
+            android:id="@+id/txtq3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtans2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Q3. How will the food be delivered to me?"
+            android:textColor="#EE2916"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtans3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq3"
+            android:layout_margin="15dp"
+            android:text="One of our awesome FoodRunner drivers will deliver it right to your door! Remember, they work for tips. So, if they did an awesome job, please show your appreciation."
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/div3"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtans3"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:background="#ff9703" />
+
+        <TextView
+            android:id="@+id/txtq4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtans3"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Q4. What payment types do you accept?"
+            android:textColor="#EE2916"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtans4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq4"
+            android:layout_margin="15dp"
+            android:text="Getting your food to your face should be easy, so paying for your food needs to be easy too. We accept all the major online payment methods. This means you can use VISA, MasterCard, American Express and PayPal. Or you can go the ol' fashion route and pay by Cash on delivery/pick up. Keep in mind that it always comes down to what the restaurant accepts, so double check when you place your order."
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/div4"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtans4"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:background="#ff9703" />
+
+        <TextView
+            android:id="@+id/txtq5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtans4"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Q5. How will the food be delivered to me?"
+            android:textColor="#EE2916"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtans5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq5"
+            android:layout_margin="15dp"
+            android:text="One of our awesome FoodRunner drivers will deliver it right to your door! Remember, they work for tips. So, if they did an awesome job, please show your appreciation."
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/div5"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtans5"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:background="#ff9703" />
+
+        <TextView
+            android:id="@+id/txtq6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtans5"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Q6. Once I’ve placed my order, can I contact the restaurant direct?"
+            android:textColor="#EE2916"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtans6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtq6"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="30dp"
+            android:text="Sure can! Check your confirmation email for the restaurant number and give them a buzz if you have any questions or requests on the prep and delivery of the food. Feel free to give us a buzz too, we're always happy to help out if you’ve not been able to get through to the restaurant."
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/div6"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/txtans6"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:background="#ff9703" />
+    </RelativeLayout>
+
+</ScrollView>
